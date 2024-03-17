@@ -1,3 +1,4 @@
+
 const addEmployeesBtn = document.querySelector("#add-employees-btn");
 
 const collectEmployees = function () {
@@ -36,6 +37,7 @@ const getRandomEmployee = function (employeesArray) {
     employeesArray[Math.floor(Math.random() * employeesArray.length)];
   console.log(`Congratulations! ${employee.firstName} ${employee.lastName}, you are the random employee chosen!`);
 };
+
 
 /*
   ====================
